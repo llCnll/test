@@ -1,0 +1,99 @@
+
+img, div, header, footer, p, ul, body{
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+
+	text-decoration: none;
+}
+
+.index-style{
+	
+	width: 100%;
+	
+	
+}
+
+#index-hd{
+	
+	background: rgb(0, 176, 240);
+	height: 230.4px;/*768px*0.3*/
+	text-align: center;
+	line-height: 230.4px;
+}
+
+#index-hd-span{
+	font-size: 80px;
+	color: yellow;
+	font-family: "隶书";
+}
+
+#index-main{
+	
+	height: 537.6px;/*768px*0.7*/	
+}
+
+#index-meau{
+	
+	height: 349.44px;/*537.6px*0.65*/
+	background: rgb(0, 220, 240);
+	text-align: center;
+}
+/*业务人员的菜单栏*/
+.index-yw-meau-li{
+	float:left;
+	list-style: none;
+	
+	width: 175px;
+	height: 75px;
+	border: 2px solid rgb(68, 114, 196);
+	background: rgb(91, 128, 203);
+	
+	line-height: 75px;
+	text-align: center;	
+	font-size: 20px;
+	font-family: "楷体";
+	font-weight: bold;
+	color:white;
+	
+	/*左右间距: (1280/水平的菜单个数 - 180)/2  左右*/
+	margin: 137px 115px;
+}
+/*海运操作平台的菜单栏*/
+.index-cz-meau-li{
+	float:left;
+	list-style: none;
+	
+	width: 175px;
+	height: 75px;
+	border: 2px solid rgb(68, 114, 196);
+	background: rgb(91, 128, 203);
+	
+	line-height: 75px;
+	text-align: center;	
+	font-size: 20px;
+	font-family: "楷体";
+	font-weight: bold;
+	color:white;
+	
+	margin-top: 65px;
+	margin-left: 65px;
+	margin-right: 65px;	
+}
+
+#index-ft{
+	
+	height: 188.16px;/*537.6px*0.35*/
+	background: rgb(0, 200, 255);
+	text-align: center;
+	line-height: 188.16px;
+}
+
+#index-ft-span{
+	font-size: 50px;
+	color: rgb(255, 192, 0);
+	font-family: "华文行楷";
+}

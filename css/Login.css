@@ -1,0 +1,58 @@
+h1{
+	padding: 0px;
+	margin: 0px;
+}
+
+#index-main{
+	background: rgb(202, 230, 241);
+}
+
+#index-main h1{   
+    color: rgba(255, 255, 10, 0.9);   
+    text-shadow:0 0 10px;   
+    letter-spacing: 1px;   
+    text-align: center;   
+ 	padding: 20px 0px;
+} 
+
+#login-form{
+	width: 350px;
+	height: 250px;
+	margin-left: 465px;
+	text-align: center;
+}
+
+#index-main input{
+	width: 278px;   
+    height: 18px;   
+    margin-bottom: 30px;
+    outline: none;
+    
+    padding: 10px;       
+    font-size: 14px;   
+    color: black;  
+    text-shadow:1px 1px 1px;   
+   
+   	border-top: 5px solid rgb(216, 230, 205);
+  	border-left: 5px solid rgb(216, 230, 205);   
+  	border-right: 5px solid rgb(216, 230, 205);   
+  	border-bottom: 5px solid rgb(243, 254, 238);  
+     
+  	border-radius: 5px;   
+ 	background-color: rgb(254, 255, 239);    
+}
+
+#index-main button{
+	
+	width: 308px;
+	min-height: 20px; 
+	margin-bottom: 20px;
+	
+	background: rgb(74, 119, 212);
+	border: 2px solid rgb(55, 98, 188);
+	border-radius: 5px;	
+	padding: 9px 15px; 
+	
+	color: white;
+	font-size: 15px;
+}
